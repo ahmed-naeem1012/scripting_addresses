@@ -72,10 +72,8 @@ class MyApp extends StatelessWidget {
 //   @override
 //   _HomePageState createState() => _HomePageState();
 // }
-
 // class _HomePageState extends State<HomePage> {
 //   List<String> addresses = [];
-
 //   @override
 //   Widget build(BuildContext context) {
 //     return Scaffold(
@@ -116,16 +114,13 @@ class MyApp extends StatelessWidget {
 //       ),
 //     );
 //   }
-
 //   Future<void> generateAddresses() async {
 //     final sha256Digest = SHA256Digest();
 //     final ripemd160Digest = RIPEMD160Digest();
 //     // Generate a new mnemonic
 //     final mnemonic = bip39.generateMnemonic();
-
 //     // Derive the master seed from the mnemonic
 //     final seed = bip39.mnemonicToSeed(mnemonic);
-
 //     // Derive the master node from the seed
 //     final node = BIP32.fromSeed(seed);
 
